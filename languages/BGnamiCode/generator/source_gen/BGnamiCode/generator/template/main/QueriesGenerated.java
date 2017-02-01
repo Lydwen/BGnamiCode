@@ -4,10 +4,103 @@ package BGnamiCode.generator.template.main;
 
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.impl.query.QueryProviderBase;
+import jetbrains.mps.generator.template.PropertyMacroContext;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.Map;
+import jetbrains.mps.generator.impl.query.SourceNodesQuery;
+import java.util.HashMap;
+import org.jetbrains.annotations.NotNull;
+import java.util.Collection;
+import jetbrains.mps.generator.impl.GenerationFailureException;
+import jetbrains.mps.util.IterableUtil;
+import jetbrains.mps.generator.impl.query.PropertyValueQuery;
+import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.annotations.Nullable;
 
 @Generated
 public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
+  }
+  public static Object propertyMacro_GetPropertyValue_8175680257180533783(final PropertyMacroContext _context) {
+    return "bgName_" + ((Integer) _context.getVariable("cv:stateStep"));
+  }
+  public static Object propertyMacro_GetPropertyValue_6636601361089778038(final PropertyMacroContext _context) {
+    int maxState = ((int) _context.getSessionObject("maxBgState"));
+    String stateName = "success";
+    if (((Integer) _context.getVariable("cv:stateStep")) < (maxState - 1)) {
+      stateName = "bgName_" + (((Integer) _context.getVariable("cv:stateStep")) + 1);
+    }
+    return stateName;
+  }
+  public static Iterable<SNode> sourceNodesQuery_8175680257180513154(final SourceSubstituteMacroNodesContext _context) {
+    _context.putSessionObject("maxBgState", ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xca6f6e4e20be476aL, 0xbf2e14a6b4d9e674L, 0x30f63d29e61b1e5fL, 0x30f63d29e61c1437L, "code")), MetaAdapterFactory.getContainmentLink(0xca6f6e4e20be476aL, 0xbf2e14a6b4d9e674L, 0x30f63d29e61c1486L, 0x30f63d29e61c1487L, "codeMembers"))).count());
+    return ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xca6f6e4e20be476aL, 0xbf2e14a6b4d9e674L, 0x30f63d29e61b1e5fL, 0x30f63d29e61c1437L, "code")), MetaAdapterFactory.getContainmentLink(0xca6f6e4e20be476aL, 0xbf2e14a6b4d9e674L, 0x30f63d29e61c1486L, 0x30f63d29e61c1487L, "codeMembers"))).reversedList();
+  }
+  private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
+  {
+    int i = 0;
+    snsqMethods.put("8175680257180513154", new QueriesGenerated.SNsQ(i++));
+  }
+  @NotNull
+  @Override
+  public SourceNodesQuery getSourceNodesQuery(@NotNull SNode query) {
+    final String id = query.getNodeId().toString();
+    if (!(snsqMethods.containsKey(id))) {
+      return super.getSourceNodesQuery(query);
+    }
+    return snsqMethods.get(id);
+  }
+  private static class SNsQ implements SourceNodesQuery {
+    private final int methodKey;
+    public SNsQ(int methodKey) {
+      this.methodKey = methodKey;
+    }
+    @NotNull
+    public Collection<SNode> evaluate(@NotNull SourceSubstituteMacroNodesContext ctx) throws GenerationFailureException {
+      switch (methodKey) {
+        case 0:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_8175680257180513154(ctx));
+        default:
+          throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
+      }
+    }
+  }
+  private final Map<String, PropertyValueQuery> pvqMethods = new HashMap<String, PropertyValueQuery>();
+  {
+    int i = 0;
+    pvqMethods.put("8175680257180533782", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "stateName"));
+    pvqMethods.put("6636601361089778037", new QueriesGenerated.PVQ(i++, MetaAdapterFactory.getProperty(0x5edee0cf46e149f9L, 0x971e6b9e2e5cae16L, 0x59fb62ba872b9e00L, 0x7175d9e0966bd227L, "target"), "nextState"));
+  }
+  @NotNull
+  @Override
+  public PropertyValueQuery getPropertyValueQuery(@NotNull SNode macro) {
+    final String id = macro.getNodeId().toString();
+    if (!(pvqMethods.containsKey(id))) {
+      return super.getPropertyValueQuery(macro);
+    }
+    return pvqMethods.get(id);
+  }
+  private static class PVQ extends PropertyValueQuery.Base {
+    private final int methodKey;
+    /*package*/ PVQ(int methodKey, SProperty property, String templateValue) {
+      super(property, templateValue);
+      this.methodKey = methodKey;
+    }
+    @Nullable
+    public Object evaluate(@NotNull PropertyMacroContext ctx) throws GenerationFailureException {
+      switch (methodKey) {
+        case 0:
+          return QueriesGenerated.propertyMacro_GetPropertyValue_8175680257180533783(ctx);
+        case 1:
+          return QueriesGenerated.propertyMacro_GetPropertyValue_6636601361089778038(ctx);
+        default:
+          throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
+      }
+    }
   }
 }

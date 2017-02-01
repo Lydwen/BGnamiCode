@@ -1,0 +1,3 @@
+[merge "mps"]
+    name = MPS merge driver
+    driver = "\"/Users/markus/.MPS20/config/mps-merger.sh\" %O %A %B %L"
