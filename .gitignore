@@ -1,6 +1,6 @@
 *.iws
 *.java
 *.class
-**/source_gen.caches
-**/source_gen
-**/classes_gen
+*/**/source_gen.caches
+*/**/source_gen
+*/**/classes_gen
