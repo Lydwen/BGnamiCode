@@ -17,8 +17,8 @@
       </concept>
       <concept id="6483884641801182720" name="ArduinoML.structure.Transition" flags="ng" index="3uOfMU">
         <property id="6483884641801182748" name="status" index="3uOfMA" />
+        <property id="8175680257180553767" name="target" index="3B7wJ7" />
         <reference id="6483884641801182750" name="sensor" index="3uOfM$" />
-        <reference id="6483884641801253235" name="target" index="3uPXf9" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
       <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
@@ -50,26 +50,26 @@
     </node>
     <node concept="3uOfik" id="1gcG8mUk9O4" role="3uOfKp">
       <property role="TrG5h" value="init" />
-      <node concept="3uOfMU" id="1gcG8mUk9O5" role="3uOfKq">
-        <property role="3uOfMA" value="true" />
-        <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
-        <ref role="3uPXf9" node="1gcG8mUk9Oi" resolve="wow" />
-      </node>
       <node concept="3uOfyw" id="1gcG8mUk9Og" role="3uOfKK">
         <property role="3uOfX0" value="true" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
+      <node concept="3uOfMU" id="75PQu2mr6$A" role="3uOfKq">
+        <property role="3uOfMA" value="true" />
+        <property role="3B7wJ7" value="wow" />
+        <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
+      </node>
     </node>
     <node concept="3uOfik" id="1gcG8mUk9Oi" role="3uOfKp">
       <property role="TrG5h" value="wow" />
-      <node concept="3uOfMU" id="1gcG8mUk9Oj" role="3uOfKq">
-        <property role="3uOfMA" value="false" />
-        <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
-        <ref role="3uPXf9" node="1gcG8mUk9O4" resolve="init" />
-      </node>
       <node concept="3uOfyw" id="1gcG8mUk9Op" role="3uOfKK">
         <property role="3uOfX0" value="false" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
+      </node>
+      <node concept="3uOfMU" id="75PQu2mr6$C" role="3uOfKq">
+        <property role="3uOfMA" value="false" />
+        <property role="3B7wJ7" value="init" />
+        <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
       </node>
     </node>
   </node>

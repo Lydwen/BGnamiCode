@@ -11,6 +11,8 @@ public class map_App {
     System.out.println("// Structural concepts");
     System.out.println("void setup() {");
     System.out.println("  pinMode(" + 23 + ", INPUT);");
+    System.out.println("  pinMode(" + 12 + ", INPUT);");
+    System.out.println("  pinMode(" + 18 + ", INPUT);");
     System.out.println("}");
 
     System.out.println("\n// Behavioral concepts");
@@ -18,10 +20,35 @@ public class map_App {
 
     System.out.println("void state_" + "init" + "() {");
     System.out.println("  boolean guard =  millis() - time > debounce;");
-    System.out.println("  if (digitalRead(" + 23 + ") == " + "HIGH" + " && guard ) {");
-    System.out.println("    time = millis(); state_" + "init" + "(); ");
+    System.out.println("  if (digitalRead(" + 12 + ") == " + "HIGH" + " && guard ) {");
+    System.out.println("    time = millis(); state_" + "state_02" + "(); ");
     System.out.println("  } else { state_" + "init" + "(); }");
     System.out.println("}\n");
+    System.out.println("void state_" + "bgName_0" + "() {");
+    System.out.println("  boolean guard =  millis() - time > debounce;");
+    System.out.println("  if (digitalRead(" + 23 + ") == " + "HIGH" + " && guard ) {");
+    System.out.println("    time = millis(); state_" + "bgName_1" + "(); ");
+    System.out.println("  } else { state_" + "bgName_0" + "(); }");
+    System.out.println("}\n");
+    System.out.println("void state_" + "bgName_1" + "() {");
+    System.out.println("  boolean guard =  millis() - time > debounce;");
+    System.out.println("  if (digitalRead(" + 23 + ") == " + "HIGH" + " && guard ) {");
+    System.out.println("    time = millis(); state_" + "bgName_2" + "(); ");
+    System.out.println("  } else { state_" + "bgName_1" + "(); }");
+    System.out.println("}\n");
+    System.out.println("void state_" + "bgName_2" + "() {");
+    System.out.println("  boolean guard =  millis() - time > debounce;");
+    System.out.println("  if (digitalRead(" + 23 + ") == " + "HIGH" + " && guard ) {");
+    System.out.println("    time = millis(); state_" + "bgName_3" + "(); ");
+    System.out.println("  } else { state_" + "bgName_2" + "(); }");
+    System.out.println("}\n");
+    System.out.println("void state_" + "bgName_3" + "() {");
+    System.out.println("  boolean guard =  millis() - time > debounce;");
+    System.out.println("  if (digitalRead(" + 23 + ") == " + "HIGH" + " && guard ) {");
+    System.out.println("    time = millis(); state_" + "success" + "(); ");
+    System.out.println("  } else { state_" + "bgName_3" + "(); }");
+    System.out.println("}\n");
+
 
     System.out.println("\nvoid loop() { state_" + "init" + "(); } // Entering init state\n");
   }

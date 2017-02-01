@@ -7,14 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd70232f-fd1d-4855-aa5c-4d6791fa4aa0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ArduinoML/ArduinoML.mpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/template/main@generator.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/ArduinoML.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/models/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/classes_gen/BGnamiCode/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/BGnamiCode/classes_gen/BGnamiCode/structure/StructureAspectDescriptor.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/ArduinoML/models/behavior.mps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/ArduinoML/models/constraints.mps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/ArduinoML/models/editor.mps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/ArduinoML/models/structure.mps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/ArduinoML/models/typesystem.mps" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/editor/Transition_Editor.class" afterPath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/editor/Transition_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/classes_gen/ArduinoML/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/classes_gen/ArduinoML/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/QueriesGenerated$SNQ.class" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/QueriesGenerated$SNQ.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/classes_gen/BGnamiCode/sandbox/map_App.class" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/classes_gen/BGnamiCode/sandbox/map_App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/classes_gen/sandbox/map_App.class" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/classes_gen/sandbox/map_App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/editor/trace.info" afterPath="$PROJECT_DIR$/languages/ArduinoML/classes_gen/ArduinoML/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/classes_gen/ArduinoML/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/classes_gen/ArduinoML/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen.caches/ArduinoML/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen.caches/ArduinoML/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen/ArduinoML/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen/ArduinoML/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen/ArduinoML/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/source_gen/ArduinoML/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/ArduinoML/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/ArduinoML/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/ArduinoML/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/editor/generated" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/generated" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/structure/generated" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen.caches/ArduinoML/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/editor/Transition_Editor.java" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/editor/Transition_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/editor/trace.info" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/ArduinoML/source_gen/ArduinoML/structure/StructureAspectDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/BGnamiCode.mpl" afterPath="$PROJECT_DIR$/languages/BGnamiCode/BGnamiCode.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/classes_gen/BGnamiCode/generator/template/main/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen.caches/BGnamiCode/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen.caches/BGnamiCode/generator/template/main/dependencies" />
@@ -22,15 +42,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen/BGnamiCode/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen/BGnamiCode/generator/template/main/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen/BGnamiCode/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/source_gen/BGnamiCode/generator/template/main/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/BGnamiCode/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/models/structure.mps" afterPath="$PROJECT_DIR$/languages/BGnamiCode/models/structure.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/classes_gen/BGnamiCode/sandbox/trace.info" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/classes_gen/BGnamiCode/sandbox/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/models/BGnamiCode/sandbox.mps" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/models/BGnamiCode/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen.caches/BGnamiCode/sandbox/dependencies" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen.caches/BGnamiCode/sandbox/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen.caches/BGnamiCode/sandbox/generated" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen.caches/BGnamiCode/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/map_App.java" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/map_App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/trace.info" afterPath="$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/source_gen.caches/BGnamiCode/generated" afterPath="$PROJECT_DIR$/languages/BGnamiCode/source_gen.caches/BGnamiCode/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/source_gen.caches/BGnamiCode/structure/generated" afterPath="$PROJECT_DIR$/languages/BGnamiCode/source_gen.caches/BGnamiCode/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/BGnamiCode/source_gen/BGnamiCode/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/BGnamiCode/source_gen/BGnamiCode/structure/StructureAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/classes_gen/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/classes_gen/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/models/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/models/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen.caches/sandbox/generated" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen.caches/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen/sandbox/map_App.java" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen/sandbox/map_App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/ArduinoML.sandbox/source_gen/sandbox/trace.info" />
     </list>
     <ignored path="BGnamiCodeProject.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -47,7 +69,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="a5479dca-85f8-4b32-99dc-152209cb8db7/r:193c4aeb-77cf-45f2-a8d9-efb614532005(TempModulea5479dca-85f8-4b32-99dc-152209cb8db7/TempModel_19141083763013)">
+            <model ref="fb6bbb1d-5ee3-43aa-93e5-daa4b385410e/r:1bd32a31-945a-40ad-a3ea-3bc6285c516a(TempModulefb6bbb1d-5ee3-43aa-93e5-daa4b385410e/TempModel_38675743754110)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -77,9 +99,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1gcG8mUjqav">
-                <node concept="3balQm" id="1gcG8mUjqaw" role="aymYE" />
-                <node concept="2Clz$F" id="1gcG8mUjqax" role="aymYO">
+              <node concept="aymSD" id="5KpWsqjCaac">
+                <node concept="3balQm" id="5KpWsqjCaad" role="aymYE" />
+                <node concept="2Clz$F" id="5KpWsqjCaae" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -116,11 +138,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="95" />
-                    <property name="caretXRelative" value="12" />
+                    <property name="caretX" value="159" />
+                    <property name="caretXRelative" value="4" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_sjqidp_b0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" />
+                    <cellInfo cellId="Constant_qb70eh_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -129,7 +151,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -142,19 +164,121 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Brick" pinned="false" current-in-tab="false">
+        <entry file="mps://node://ArduinoML/ArduinoML.structure/Brick">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="191" />
+                    <property name="caretXRelative" value="44" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="name" cellNumber="0" isInList="false">
+                      <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866924" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866924" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sensor" pinned="false" current-in-tab="false">
+        <entry file="mps://node://ArduinoML/ArduinoML.structure/Sensor">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="295" />
+                    <property name="caretXRelative" value="52" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/8218746718700159902" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/8218746718700159902" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State" pinned="false" current-in-tab="false">
+        <entry file="mps://node://ArduinoML/ArduinoML.structure/State">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/6483884641801180718" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/6483884641801180718" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main" pinned="false" current-in-tab="false">
         <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="192">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="387">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="285" />
-                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="31" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="templateName" cellNumber="0" isInList="false">
-                      <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3661497751319946977" />
+                    <cellInfo cellId="empty_reductionMappingRule" cellNumber="0" isInList="false">
+                      <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -169,7 +293,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -181,16 +305,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BgnamiApp" pinned="false" current-in-tab="false">
-        <entry file="mps://node://BGnamiCode.sandbox/BGnamiCode.sandbox/BgnamiApp">
+      <file leaf-file-name="&lt;no name&gt;[BgnamiApp]" pinned="false" current-in-tab="false">
+        <entry file="mps://node://BGnamiCode.sandbox/BGnamiCode.sandbox/&lt;no name&gt;[BgnamiApp]">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="95" />
+                    <property name="caretXRelative" value="80" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_iwhuv3_a0a" cellNumber="0" isInList="false">
                       <node node_reference="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254915617" />
@@ -202,7 +326,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -214,53 +338,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App" pinned="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
+      <file leaf-file-name="Transition" pinned="false" current-in-tab="false">
+        <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="119" />
-                    <property name="caretXRelative" value="88" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Code" pinned="false" current-in-tab="false">
-        <entry file="mps://node://BGnamiCode/BGnamiCode.structure/Code">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="146" />
-                    <property name="caretXRelative" value="68" />
+                    <property name="caretX" value="327" />
+                    <property name="caretXRelative" value="84" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882128710" />
+                      <node node_reference="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/6483884641801315189" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -269,7 +359,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -277,7 +367,40 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882081825" />
+              <node node_ref="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/6483884641801315189" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyApp" pinned="false" current-in-tab="false">
+        <entry file="mps://node://ArduinoML.sandbox/sandbox/MyApp">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="151" />
+                    <property name="caretXRelative" value="36" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_status" cellNumber="0" isInList="false">
+                      <node node_reference="r:818933bc-cba3-46c7-b455-07b6ec6dba7c(sandbox)/1444723668882070800" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -311,7 +434,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1417" />
+    <option name="x" value="51" />
     <option name="y" value="24" />
     <option name="width" value="1315" />
     <option name="height" value="744" />
@@ -394,6 +517,7 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,84 +525,15 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ca6f6e4e-20be-476a-bf2e-14a6b4d9e674(BGnamiCode)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ca6f6e4e-20be-476a-bf2e-14a6b4d9e674(BGnamiCode)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BGnamiCode#3528074608254852643" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ca6f6e4e-20be-476a-bf2e-14a6b4d9e674(BGnamiCode)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BGnamiCode#3528074608254852643" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BGnamiCode" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator) in IdeaFile{file:///home/tom/Documents/SI5/DSL/BGnami/BGnamiCode/languages/BGnamiCode/generator/template/main@generator.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ca6f6e4e-20be-476a-bf2e-14a6b4d9e674(BGnamiCode)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BGnamiCode#3528074608254852643" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BGnamiCode" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/BGnamiCode/sandbox/BGnamiCode.sandbox.msd" />
+              <option name="myItemId" value="b07ca371-9879-4d07-aea2-68244bf425fe(BGnamiCode.sandbox@transient15)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,30 +541,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.generationSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Java Application.Node null (3)">
-    <configuration default="false" name="Node MyApp" type="Java Application" factoryName="Java" temporary="true">
-      <MyState />
-      <myNode>
-        <MyState>
-          <option name="myNodeId" value="1444723668882070786" />
-          <option name="myModelId" value="r:818933bc-cba3-46c7-b455-07b6ec6dba7c(sandbox)" />
-        </MyState>
-      </myNode>
-      <myRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myRunParameters>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Java Application.Node null (4)">
     <configuration default="false" name="Node null" type="Java Application" factoryName="Java" temporary="true">
       <MyState />
       <myNode>
@@ -602,6 +634,29 @@
       </myRunParameters>
       <method />
     </configuration>
+    <configuration default="false" name="Node null (4)" type="Java Application" factoryName="Java" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="3528074608254915617" />
+          <option name="myModelId" value="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
       <MyState />
       <myJUnitSettings>
@@ -660,19 +715,16 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Java Application.Node MyApp" />
-      <item index="1" class="java.lang.String" itemvalue="Java Application.Node null" />
-      <item index="2" class="java.lang.String" itemvalue="Java Application.Node null (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Java Application.Node null (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Java Application.Node null (3)" />
+      <item index="0" class="java.lang.String" itemvalue="Java Application.Node null" />
+      <item index="1" class="java.lang.String" itemvalue="Java Application.Node null (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Java Application.Node null (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Java Application.Node null (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Java Application.Node null (4)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Java Application.Node null (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Java Application.Node null (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Java Application.Node null (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Java Application.Node null" />
-        <item index="4" class="java.lang.String" itemvalue="Java Application.Node MyApp" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Java Application.Node null (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Java Application.Node null (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -683,33 +735,33 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1417" y="24" width="1315" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.49730977" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.47604564" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.5102662" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.50494295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.50883937" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.6935361" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32779455" sideWeight="0.5847909" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39879155" sideWeight="0.4973384" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850942" sideWeight="0.48973384" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32779455" sideWeight="0.4152091" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.45019013" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2836502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20608366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -740,420 +792,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://BGnamiCode.sandbox@transient12/BGnamiCode.sandbox@0/BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@12_1/QueriesGenerated" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@1_1/QueriesGenerated" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@0/main" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@0/map_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@0/reduce_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@1_0/main" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@1_0/map_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient14/BGnamiCode.generator.template.main@1_0/reduce_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient19/BGnamiCode.generator.template.main@1_1/QueriesGenerated" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient19/BGnamiCode.generator.template.main@1_0/map_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient19/BGnamiCode.generator.template.main@0/reduce_BgnamiApp" />
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient19/BGnamiCode.generator.template.main@0/map_BgnamiApp" />
-    <entry file="mps://node://jetbrains.mps.lang.generator/jetbrains.mps.lang.generator.structure/TemplateFragment">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/1095672379244" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/1095672379244" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/1095672379244" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient24/BGnamiCode.sandbox@5_0/map_BgnamiApp" />
-    <entry file="file://$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/map_BgnamiApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient5/BGnamiCode.sandbox@0/BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient5/BGnamiCode.sandbox@3_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient5/BGnamiCode.sandbox@4_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient5/BGnamiCode.sandbox@5_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient6/BGnamiCode.sandbox@0/BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668881991120" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient6/BGnamiCode.sandbox@3_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668881991120" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient9/BGnamiCode.sandbox@0/BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient9/BGnamiCode.sandbox@4_0/BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient9/BGnamiCode.sandbox@5_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254944689" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0/QueriesGenerated">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="23" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="f8801877-060f-49af-8d0d-ac68d3701c37/r:9270f571-895a-4770-8ec9-2303939d2fa0(BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0)/1444723668881997682" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
-                  <node node_reference="f8801877-060f-49af-8d0d-ac68d3701c37/r:9270f571-895a-4770-8ec9-2303939d2fa0(BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0)/1444723668881997676" />
-                </cellIdElement>
-              </collapsedElement>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="HAAC_refNodeList_annotation" cellNumber="0" isInList="false">
-                  <node node_reference="f8801877-060f-49af-8d0d-ac68d3701c37/r:9270f571-895a-4770-8ec9-2303939d2fa0(BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0)/1444723668881997675" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="HAAC_refNodeList_annotation" cellNumber="0" isInList="false">
-                  <node node_reference="f8801877-060f-49af-8d0d-ac68d3701c37/r:9270f571-895a-4770-8ec9-2303939d2fa0(BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0)/1444723668881997675" />
-                </cellIdElement>
-              </collapsedElement>
-            </restoreAlways>
-          </memento>
-          <inspectorMemento currentlyEditedNode="f8801877-060f-49af-8d0d-ac68d3701c37/r:9270f571-895a-4770-8ec9-2303939d2fa0(BGnamiCode#3528074608254852643@transient11/BGnamiCode.generator.template.main@12_0)/1444723668881997682" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/languages/BGnamiCode/sandbox/source_gen/BGnamiCode/sandbox/map_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient18/BGnamiCode.sandbox@5_1/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668881988030" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient18/BGnamiCode.sandbox@5_0/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient25/BGnamiCode.sandbox@5_1/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient31/BGnamiCode.sandbox@5_1/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3661497751319936370" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode#3528074608254852643@transient33/BGnamiCode.generator.template.main@12_0/QueriesGenerated">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Actuator">
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="207" />
-                <property name="caretXRelative" value="124" />
+                <property name="caretX" value="95" />
+                <property name="caretXRelative" value="48" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700456150" />
+                <cellInfo cellId="Constant_jiideg_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095585" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1162,7 +812,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700436383" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1170,118 +820,22 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700456150" />
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/State">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="183" />
-                <property name="caretXRelative" value="100" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605129" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/1444723668882128482" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="223" />
-                <property name="caretXRelative" value="140" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605205" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3661497751319946977" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Action">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="23" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_319n5h_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605237" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="8f6238a0-82ce-46b9-8441-bf5c3020c432/r:34fabc25-d527-4b5b-be81-040c75094afe(BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_9)/1444723668882161560" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML#8218746718699807902/ArduinoML.generator.template.main@generator/main">
+    <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="272">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="169">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_generationParameters" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718699807903" />
+                <cellInfo cellId="empty_reductionMappingRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1290,13 +844,13 @@
             <foldable>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718699807903" />
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
                 </cellIdElement>
               </collapsedElement>
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="8f6238a0-82ce-46b9-8441-bf5c3020c432/r:34fabc25-d527-4b5b-be81-040c75094afe(BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_9)/1444723668882162720" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1307,227 +861,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Sensor">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="191" />
-                <property name="caretXRelative" value="108" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700436383" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="8f6238a0-82ce-46b9-8441-bf5c3020c432/r:65edc5b5-53ea-41a8-8b8d-a3566a90c7ae(BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_0)/1444723668882161676" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700436383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML.sandbox/sandbox/&lt;no name&gt;[App]">
+    <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="169">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="55" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_sjqidp_d0" cellNumber="0" isInList="false">
-                  <node node_reference="r:818933bc-cba3-46c7-b455-07b6ec6dba7c(sandbox)/1444723668882070788" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="8f6238a0-82ce-46b9-8441-bf5c3020c432/r:65edc5b5-53ea-41a8-8b8d-a3566a90c7ae(BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_0)/1444723668882161560" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox/BGnamiCode.sandbox/BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_iwhuv3_a0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254915617" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="119" />
+                <property name="caretX" value="317" />
                 <property name="caretXRelative" value="88" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_o1c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884096712" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <transactionalProperties />
-            <foldable />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_9/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882080243" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_9/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882080243" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_0/map_App">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882080243" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@3_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882080243" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient55/BGnamiCode.sandbox@2_0/map_BgnamiApp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882080243" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1545,11 +905,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="146" />
-                <property name="caretXRelative" value="68" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882128710" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1558,7 +918,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1566,21 +926,31 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882081825" />
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient60/BGnamiCode.sandbox@2_0/map_BgnamiApp">
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/Code">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="121" />
+                <property name="caretXRelative" value="7" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884125617" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166394" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1588,12 +958,177 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884096710" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://BGnamiCode.sandbox@transient60/BGnamiCode.sandbox@0/&lt;no name&gt;[BgnamiApp]">
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166394" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166394" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166394" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166394" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801494899" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095585" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095586" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="95" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_jiideg_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095585" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095585" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884095586" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
@@ -1601,13 +1136,175 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801494899" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
             <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254852703" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801494899" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700187166" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801494899" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/Code">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="121" />
+                <property name="caretXRelative" value="7" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884125617" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884125617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884096710" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254852703" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="20" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_pin" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882291381" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="169">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="reduce_Code" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884096712" />
+                <parent cellId="Collection_krqspc_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884096712" />
+                </parent>
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
           </inspectorMemento>
         </state>
       </provider>
@@ -1615,15 +1312,15 @@
     <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="192">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="240">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="285" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="385" />
+                <property name="caretXRelative" value="136" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="templateName" cellNumber="0" isInList="false">
-                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3661497751319946977" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236119" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1638,7 +1335,121 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="54" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236170" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236161" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_sensor" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" modelText="" propertyCell="true" cellId="property_status" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_target" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236119" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="240">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="385" />
+                <property name="caretXRelative" value="136" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236119" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236119" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1656,10 +1467,225 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="95" />
-                <property name="caretXRelative" value="12" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="20" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_sjqidp_b0a" cellNumber="0" isInList="false">
+                <cellInfo cellId="property_pin" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882291381" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882291381" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="111" />
+                <property name="caretXRelative" value="64" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vmyx7q_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228491" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236170" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="Custom_13zen7_a" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884239891" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236171" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="54" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236170" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236161" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_sensor" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" modelText="" propertyCell="true" cellId="property_status" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_target" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236170" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="Custom_13zen7_a" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884239891" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236171" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="54" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241427" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="empty_sensor" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" modelText="" propertyCell="true" cellId="property_status" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_target" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228491" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228494" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="111" />
+                <property name="caretXRelative" value="64" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_vmyx7q_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228491" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228491" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884228494" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="150" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_sjqidp_d0" cellNumber="0" isInList="false">
                   <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" />
                 </cellInfo>
               </stackElement>
@@ -1669,7 +1695,689 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241427" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="Custom_1ltshm_a0" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884245823" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241428" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="54" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241427" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="empty_sensor" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" modelText="" propertyCell="true" cellId="property_status" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_target" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241427" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="Custom_1ltshm_a0" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884245823" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241428" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="54" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884241427" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="false" cellId="empty_sensor" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" modelText="" propertyCell="true" cellId="property_status" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_target" cellNumber="0" isInList="false">
+                <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236162" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668884236117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="150" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_sjqidp_d0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox@transient8/BGnamiCode.sandbox@0/&lt;no name&gt;[BgnamiApp]" />
+    <entry file="mps://node://BGnamiCode.sandbox@transient8/BGnamiCode.sandbox@2_0/map_BgnamiApp" />
+    <entry file="mps://node://BGnamiCode.sandbox@transient8/BGnamiCode.sandbox@4_0/map_App" />
+    <entry file="mps://node://BGnamiCode.sandbox@transient11/BGnamiCode.sandbox@2_0/map_BgnamiApp" />
+    <entry file="mps://node://BGnamiCode.sandbox@transient11/BGnamiCode.sandbox@0/&lt;no name&gt;[BgnamiApp]" />
+    <entry file="mps://node://BGnamiCode.sandbox@transient14/BGnamiCode.sandbox@2_0/map_BgnamiApp" />
+    <entry file="mps://node://jetbrains.mps.lang.generator/jetbrains.mps.lang.generator.structure/LabelMacro">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="20">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="44" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_rootable" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/5133195082121471908" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/5133195082121471908" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)/5133195082121471908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/DIRECTION">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="183" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915618" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801803541" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="179" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8175680257180561430" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801803542" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801803542" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/Code">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915718" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/CodeMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254915617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:e8eb6b12-b290-4055-9f7b-c4ae1ef38f55(BGnamiCode.structure)/3528074608254915636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/App">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_d0" cellNumber="0" isInList="false">
+                  <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="7ea4ce05-a60b-47b9-87be-fb91af806380/r:3c5d0f73-2528-4fb8-95a1-fd3dd9616aed(BGnamiCode.sandbox@transient2/BGnamiCode.sandbox@0)/1444723668883814194" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866925" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/State">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/6483884641801180718" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/6483884641801180718" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Brick">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="44" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866924" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c3495eae-2a50-4eb5-87a2-5e8ab67ad9fe(ArduinoML.structure)/8218746718699866924" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Sensor">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="295" />
+                <property name="caretXRelative" value="52" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/8218746718700159902" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/8218746718700159902" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="327" />
+                <property name="caretXRelative" value="84" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/6483884641801315189" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:2636a672-d428-443c-91fe-602a8633f76e(ArduinoML.editor)/6483884641801315189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML.sandbox/sandbox/MyApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_status" cellNumber="0" isInList="false">
+                  <node node_reference="r:818933bc-cba3-46c7-b455-07b6ec6dba7c(sandbox)/1444723668882070800" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode#3528074608254852643/BGnamiCode.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="387">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_reductionMappingRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_dropAttrubuteRule" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/3528074608254852644" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox/BGnamiCode.sandbox/&lt;no name&gt;[BgnamiApp]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="95" />
+                <property name="caretXRelative" value="80" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_iwhuv3_a0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:358f10bb-1c6f-4445-a130-3da6ac0dd384(BGnamiCode.sandbox)/3528074608254915617" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox@transient2/BGnamiCode.sandbox@0/&lt;no name&gt;[BgnamiApp]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox@transient2/BGnamiCode.sandbox@2_0/&lt;no name&gt;[BgnamiApp]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox@transient6/BGnamiCode.sandbox@0/&lt;no name&gt;[BgnamiApp]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882180372" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode.sandbox@transient15/BGnamiCode.sandbox@5_1/map_App">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="509">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="b07ca371-9879-4d07-aea2-68244bf425fe/r:7dd0e86e-a9cd-4bbd-aaa3-ad52eaf1dcb4(BGnamiCode.sandbox@transient15/BGnamiCode.sandbox@5_1)/6636601361089986658" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="b07ca371-9879-4d07-aea2-68244bf425fe/r:7dd0e86e-a9cd-4bbd-aaa3-ad52eaf1dcb4(BGnamiCode.sandbox@transient15/BGnamiCode.sandbox@5_1)/6636601361089986310" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="b07ca371-9879-4d07-aea2-68244bf425fe/r:7dd0e86e-a9cd-4bbd-aaa3-ad52eaf1dcb4(BGnamiCode.sandbox@transient15/BGnamiCode.sandbox@5_1)/6636601361089986658" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BGnamiCode/BGnamiCode.structure/BgnamiApp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="159" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_qb70eh_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4098be40-805c-4abe-945e-388125e02a49(BGnamiCode.generator.template.main@generator)/1444723668882294029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

@@ -161,19 +161,17 @@
       <property role="IQ2nx" value="6483884641801182748" />
       <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
     </node>
+    <node concept="1TJgyi" id="75PQu2mqX8B" role="1TKVEl">
+      <property role="IQ2nx" value="8175680257180553767" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="5BVoFE7aTSu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="sensor" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="6483884641801182750" />
       <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
-    </node>
-    <node concept="1TJgyj" id="5BVoFE7bb5N" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801253235" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
     </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
