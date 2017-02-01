@@ -68,6 +68,16 @@
   <node concept="24kQdi" id="33QfiBA7afV">
     <ref role="1XX52x" to="wvy4:33QfiBA6LTv" resolve="BgnamiApp" />
     <node concept="3EZMnI" id="33QfiBA7agh" role="2wV5jI">
+      <node concept="3EZMnI" id="66EgKQ7Llm9" role="3EZMnx">
+        <node concept="VPM3Z" id="66EgKQ7Llmb" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F1sOY" id="66EgKQ7LlmC" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:66EgKQ7LllN" resolve="BGSensor" />
+        </node>
+        <node concept="2iRfu4" id="66EgKQ7Llme" role="2iSdaV" />
+      </node>
+      <node concept="3XFhqQ" id="66EgKQ7Lln2" role="3EZMnx" />
       <node concept="3EZMnI" id="33QfiBA7ago" role="3EZMnx">
         <node concept="VPM3Z" id="33QfiBA7agq" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -106,6 +116,48 @@
         <node concept="2iRfu4" id="33QfiBA7agI" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="33QfiBA7agk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="66EgKQ7LeY1">
+    <ref role="1XX52x" to="wvy4:66EgKQ7LeWU" resolve="BGSensor" />
+    <node concept="3EZMnI" id="66EgKQ7LeYu" role="2wV5jI">
+      <node concept="3EZMnI" id="66EgKQ7LeY_" role="3EZMnx">
+        <node concept="VPM3Z" id="66EgKQ7LeYB" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="66EgKQ7LeYL" role="3EZMnx">
+          <property role="3F0ifm" value="X on pin " />
+        </node>
+        <node concept="3F0A7n" id="66EgKQ7LeYT" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:66EgKQ7LeXm" resolve="stick_pin_X" />
+        </node>
+        <node concept="l2Vlx" id="66EgKQ7LeYE" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="66EgKQ7LeZ5" role="3EZMnx">
+        <node concept="VPM3Z" id="66EgKQ7LeZ7" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="66EgKQ7LeZ9" role="3EZMnx">
+          <property role="3F0ifm" value="Y on pin " />
+        </node>
+        <node concept="3F0A7n" id="66EgKQ7LeZq" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:66EgKQ7LeXM" resolve="stick_pin_Y" />
+        </node>
+        <node concept="l2Vlx" id="66EgKQ7LeZa" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="66EgKQ7LeZF" role="3EZMnx">
+        <node concept="VPM3Z" id="66EgKQ7LeZH" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="66EgKQ7LeZJ" role="3EZMnx">
+          <property role="3F0ifm" value="PUSH on pin " />
+        </node>
+        <node concept="3F0A7n" id="66EgKQ7Lf05" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:66EgKQ7LeXP" resolve="stick_pin_PUSH" />
+        </node>
+        <node concept="l2Vlx" id="66EgKQ7LeZK" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="66EgKQ7LeYx" role="2iSdaV" />
     </node>
   </node>
 </model>

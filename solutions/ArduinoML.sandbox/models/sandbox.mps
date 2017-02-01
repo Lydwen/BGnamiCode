@@ -7,6 +7,11 @@
   <imports />
   <registry>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="2690721018118400324" name="ArduinoML.structure.Joystick" flags="ng" index="2JMbn6">
+        <property id="2690721018118414386" name="pinX" index="2JXRMK" />
+        <property id="2690721018118414391" name="pinPush" index="2JXRMP" />
+        <property id="2690721018118414388" name="pinY" index="2JXRMQ" />
+      </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transition" index="3uOfKq" />
         <child id="6483884641801182858" name="actions" index="3uOfKK" />
@@ -27,6 +32,7 @@
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
         <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
+        <child id="2690721018118400406" name="joystick" index="2JMbkk" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
         <child id="8218746718699890354" name="bricks" index="3T3nKE" />
       </concept>
@@ -71,6 +77,11 @@
         <property role="3uOfX0" value="false" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
+    </node>
+    <node concept="2JMbn6" id="2lnn8aaC81z" role="2JMbkk">
+      <property role="2JXRMK" value="11" />
+      <property role="2JXRMQ" value="12" />
+      <property role="2JXRMP" value="13" />
     </node>
   </node>
 </model>

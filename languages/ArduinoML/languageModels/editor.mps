@@ -187,5 +187,50 @@
       <node concept="l2Vlx" id="5BVoFE7bqel" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2lnn8aaC20i">
+    <ref role="1XX52x" to="67j:2lnn8aaBY_4" resolve="Joystick" />
+    <node concept="3EZMnI" id="2lnn8aaC21Y" role="2wV5jI">
+      <node concept="VPM3Z" id="2lnn8aaC220" role="3F10Kt">
+        <property role="VOm3f" value="false" />
+      </node>
+      <node concept="3EZMnI" id="2lnn8aaC22k" role="3EZMnx">
+        <node concept="VPM3Z" id="2lnn8aaC22m" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2lnn8aaC22o" role="3EZMnx">
+          <property role="3F0ifm" value="pin X :" />
+        </node>
+        <node concept="3F0A7n" id="2lnn8aaC22_" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:2lnn8aaC20M" resolve="pinX" />
+        </node>
+        <node concept="2iRfu4" id="2lnn8aaC22p" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="2lnn8aaC22K" role="3EZMnx">
+        <node concept="VPM3Z" id="2lnn8aaC22M" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2lnn8aaC22O" role="3EZMnx">
+          <property role="3F0ifm" value="pin Y :" />
+        </node>
+        <node concept="3F0A7n" id="2lnn8aaC232" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:2lnn8aaC20O" resolve="pinY" />
+        </node>
+        <node concept="2iRfu4" id="2lnn8aaC22P" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="2lnn8aaC23i" role="3EZMnx">
+        <node concept="VPM3Z" id="2lnn8aaC23k" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2lnn8aaC23m" role="3EZMnx">
+          <property role="3F0ifm" value="pin PUSH :" />
+        </node>
+        <node concept="3F0A7n" id="2lnn8aaC23D" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:2lnn8aaC20R" resolve="pinPush" />
+        </node>
+        <node concept="2iRfu4" id="2lnn8aaC23n" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="2lnn8aaC223" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

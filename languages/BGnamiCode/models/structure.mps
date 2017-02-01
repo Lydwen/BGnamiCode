@@ -63,11 +63,15 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="33QfiBA71i6" resolve="Code" />
     </node>
+    <node concept="1TJgyj" id="66EgKQ7LllN" role="1TKVEi">
+      <property role="IQ2ns" value="7037511093111313779" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="BGSensor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="66EgKQ7LeWU" resolve="BGSensor" />
+    </node>
     <node concept="PrWs8" id="1gcG8mUknTs" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
-    </node>
-    <node concept="PrWs8" id="1gcG8mUknTy" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="AxPO7" id="33QfiBA71gy">
@@ -111,6 +115,26 @@
       <property role="20kJfa" value="codeMembers" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="33QfiBA71gO" resolve="CodeMember" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="66EgKQ7LeWU">
+    <property role="EcuMT" value="7037511093111287610" />
+    <property role="TrG5h" value="BGSensor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="66EgKQ7LeXm" role="1TKVEl">
+      <property role="IQ2nx" value="7037511093111287638" />
+      <property role="TrG5h" value="stick_pin_X" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="66EgKQ7LeXM" role="1TKVEl">
+      <property role="IQ2nx" value="7037511093111287666" />
+      <property role="TrG5h" value="stick_pin_Y" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="66EgKQ7LeXP" role="1TKVEl">
+      <property role="IQ2nx" value="7037511093111287669" />
+      <property role="TrG5h" value="stick_pin_PUSH" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
