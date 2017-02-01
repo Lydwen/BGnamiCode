@@ -100,6 +100,7 @@
       </concept>
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
+        <property id="7898029224680692134" name="description" index="2n97ot" />
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
       </concept>
       <concept id="1087833241328" name="jetbrains.mps.lang.generator.structure.PropertyMacro" flags="ln" index="17Uvod">
@@ -153,6 +154,7 @@
   <node concept="bUwia" id="33QfiBA6LS$">
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="3bggcSHkirx" role="3lj3bC">
+      <property role="2n97ot" value="map the bgnami app into arduinoml" />
       <ref role="30HIoZ" to="wvy4:33QfiBA6LTv" resolve="BgnamiApp" />
       <ref role="3lhOvi" node="1gcG8mUk$$i" resolve="map_BgnamiApp" />
     </node>
@@ -181,7 +183,7 @@
       <property role="3T3nKM" value="18" />
     </node>
     <node concept="3uOfik" id="1gcG8mUk$$k" role="3uOfKp">
-      <property role="TrG5h" value="stateName" />
+      <property role="TrG5h" value="currentState" />
       <node concept="1WS0z7" id="75PQu2mqNdZ" role="lGtFl">
         <property role="1qytDF" value="stateStep" />
         <node concept="3JmXsc" id="75PQu2mqNe2" role="3Jn$fo">
