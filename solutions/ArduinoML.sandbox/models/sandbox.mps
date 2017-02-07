@@ -37,7 +37,7 @@
         <property id="8218746718699890346" name="pin" index="3T3nKM" />
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
-        <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
+        <property id="6217927598946142606" name="init_state" index="1o0GQV" />
         <child id="2690721018118400406" name="joystick" index="2JMbkk" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
         <child id="8218746718699890354" name="bricks" index="3T3nKE" />
@@ -51,7 +51,7 @@
   </registry>
   <node concept="3T3p6P" id="1gcG8mUk9O2">
     <property role="TrG5h" value="MyApp" />
-    <ref role="3uOfKs" node="1gcG8mUk9O4" resolve="init" />
+    <property role="1o0GQV" value="init" />
     <node concept="3T3p6N" id="1gcG8mUk9O6" role="3T3nKE">
       <property role="TrG5h" value="act" />
       <property role="3T3nKM" value="38" />
@@ -66,7 +66,7 @@
         <property role="3uOfX0" value="true" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
-      <node concept="3uOfMU" id="6eUTUJK1l3e" role="3uOfKq">
+      <node concept="3uOfMU" id="5pax3kehLUP" role="3uOfKq">
         <property role="3uOfMA" value="true" />
         <property role="2jIrhL" value="wow" />
         <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
@@ -78,25 +78,25 @@
         <property role="3uOfX0" value="false" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
-      <node concept="3uOfMU" id="6eUTUJK1l3g" role="3uOfKq">
-        <property role="3uOfMA" value="false" />
+      <node concept="2jIrh_" id="5pax3kehLVo" role="3uOfKq">
+        <property role="2jIrhs" value="2" />
+        <property role="2jIrhL" value="wow2" />
+        <ref role="2jIreV" node="5pax3kehGhO" resolve="joy1" />
+      </node>
+    </node>
+    <node concept="3uOfik" id="5pax3kehLVq" role="3uOfKp">
+      <property role="TrG5h" value="wow2" />
+      <node concept="2jIrh_" id="5pax3kehLV$" role="3uOfKq">
+        <property role="2jIrhs" value="5" />
         <property role="2jIrhL" value="init" />
-        <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
+        <ref role="2jIreV" node="5pax3kehGhO" resolve="joy1" />
       </node>
     </node>
-    <node concept="3uOfik" id="6eUTUJK3HT6" role="3uOfKp">
-      <property role="TrG5h" value="joy" />
-      <node concept="2jIrh_" id="6eUTUJK3HTg" role="3uOfKq">
-        <property role="2jIrhL" value="wow" />
-        <property role="2jIrhs" value="1" />
-        <ref role="2jIreV" node="2lnn8aaC81z" resolve="stick" />
-      </node>
-    </node>
-    <node concept="2JMbn6" id="2lnn8aaC81z" role="2JMbkk">
-      <property role="2JXRMK" value="11" />
+    <node concept="2JMbn6" id="5pax3kehGhO" role="2JMbkk">
+      <property role="2JXRMK" value="12" />
       <property role="2JXRMQ" value="12" />
-      <property role="2JXRMP" value="13" />
-      <property role="TrG5h" value="stick" />
+      <property role="2JXRMP" value="12" />
+      <property role="TrG5h" value="joy1" />
     </node>
   </node>
 </model>

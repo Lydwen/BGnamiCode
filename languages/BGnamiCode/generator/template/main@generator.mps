@@ -73,6 +73,9 @@
       </concept>
     </language>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="7186310881075221454" name="ArduinoML.structure.TransitionJoystick" flags="ng" index="2jIrh_">
+        <reference id="7186310881075221520" name="joystick" index="2jIreV" />
+      </concept>
       <concept id="7186310881075221464" name="ArduinoML.structure.Transition" flags="ng" index="2jIrhN">
         <property id="7186310881075221466" name="target" index="2jIrhL" />
       </concept>
@@ -83,17 +86,18 @@
       </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transition" index="3uOfKq" />
+        <child id="6483884641801182858" name="actions" index="3uOfKK" />
       </concept>
-      <concept id="6483884641801182720" name="ArduinoML.structure.TransitionDigital" flags="ng" index="3uOfMU">
-        <property id="6483884641801182748" name="status" index="3uOfMA" />
-        <reference id="6483884641801182750" name="sensor" index="3uOfM$" />
+      <concept id="6483884641801181722" name="ArduinoML.structure.Action" flags="ng" index="3uOfyw">
+        <property id="6483884641801182714" name="status" index="3uOfX0" />
+        <reference id="6483884641801182716" name="actuator" index="3uOfX6" />
       </concept>
-      <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
+      <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
       <concept id="8218746718699866924" name="ArduinoML.structure.Brick" flags="ng" index="3T3p6O">
         <property id="8218746718699890346" name="pin" index="3T3nKM" />
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
-        <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
+        <property id="6217927598946142606" name="init_state" index="1o0GQV" />
         <child id="2690721018118400406" name="joystick" index="2JMbkk" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
         <child id="8218746718699890354" name="bricks" index="3T3nKE" />
@@ -176,7 +180,6 @@
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
-      <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
     </language>
   </registry>
   <node concept="bUwia" id="33QfiBA6LS$">
@@ -195,27 +198,7 @@
   </node>
   <node concept="3T3p6P" id="1gcG8mUk$$i">
     <property role="TrG5h" value="map_BgnamiApp" />
-    <ref role="3uOfKs" node="75PQu2mqiLe" resolve="init" />
-    <node concept="3uOfik" id="75PQu2mqiLe" role="3uOfKp">
-      <property role="TrG5h" value="init" />
-      <node concept="3uOfMU" id="6eUTUJK1pOp" role="3uOfKq">
-        <property role="3uOfMA" value="true" />
-        <property role="2jIrhL" value="state_1" />
-        <ref role="3uOfM$" node="1gcG8mUkZEP" resolve="horizontal" />
-      </node>
-    </node>
-    <node concept="3T334G" id="1gcG8mUk$B7" role="3T3nKE">
-      <property role="TrG5h" value="vertical" />
-      <property role="3T3nKM" value="23" />
-    </node>
-    <node concept="3T334G" id="1gcG8mUkZEP" role="3T3nKE">
-      <property role="TrG5h" value="horizontal" />
-      <property role="3T3nKM" value="12" />
-    </node>
-    <node concept="3T334G" id="1gcG8mUl0kd" role="3T3nKE">
-      <property role="TrG5h" value="button" />
-      <property role="3T3nKM" value="18" />
-    </node>
+    <property role="1o0GQV" value="bgName_0" />
     <node concept="3uOfik" id="1gcG8mUk$$k" role="3uOfKp">
       <property role="TrG5h" value="currentState" />
       <node concept="1WS0z7" id="75PQu2mqNdZ" role="lGtFl">
@@ -249,19 +232,16 @@
               </node>
             </node>
             <node concept="3clFbF" id="75PQu2mqNe9" role="3cqZAp">
-              <node concept="2OqwBi" id="75PQu2mqQJM" role="3clFbG">
-                <node concept="2OqwBi" id="75PQu2mqOpp" role="2Oq$k0">
-                  <node concept="2OqwBi" id="75PQu2mqNOi" role="2Oq$k0">
-                    <node concept="30H73N" id="75PQu2mqNe8" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="75PQu2mqO1z" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wvy4:33QfiBA71gR" resolve="code" />
-                    </node>
-                  </node>
-                  <node concept="3Tsc0h" id="75PQu2mqOIN" role="2OqNvi">
-                    <ref role="3TtcxE" to="wvy4:33QfiBA71i7" resolve="codeMembers" />
+              <node concept="2OqwBi" id="75PQu2mqOpp" role="3clFbG">
+                <node concept="2OqwBi" id="75PQu2mqNOi" role="2Oq$k0">
+                  <node concept="30H73N" id="75PQu2mqNe8" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="75PQu2mqO1z" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wvy4:33QfiBA71gR" resolve="code" />
                   </node>
                 </node>
-                <node concept="35Qw8J" id="75PQu2mqRZQ" role="2OqNvi" />
+                <node concept="3Tsc0h" id="75PQu2mqOIN" role="2OqNvi">
+                  <ref role="3TtcxE" to="wvy4:33QfiBA71i7" resolve="codeMembers" />
+                </node>
               </node>
             </node>
           </node>
@@ -288,15 +268,14 @@
           </node>
         </node>
       </node>
-      <node concept="3uOfMU" id="6eUTUJK1xO3" role="3uOfKq">
-        <property role="3uOfMA" value="true" />
-        <property role="2jIrhL" value="nextStep" />
-        <ref role="3uOfM$" node="1gcG8mUk$B7" resolve="vertical" />
-        <node concept="17Uvod" id="6eUTUJK1yn5" role="lGtFl">
+      <node concept="2jIrh_" id="5pax3kehRQ0" role="3uOfKq">
+        <property role="2jIrhL" value="nextState" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+        <node concept="17Uvod" id="5pax3kehSpY" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/7186310881075221464/7186310881075221466" />
           <property role="2qtEX9" value="target" />
-          <node concept="3zFVjK" id="6eUTUJK1yn6" role="3zH0cK">
-            <node concept="3clFbS" id="6eUTUJK1yn7" role="2VODD2">
+          <node concept="3zFVjK" id="5pax3kehSpZ" role="3zH0cK">
+            <node concept="3clFbS" id="5pax3kehSq0" role="2VODD2">
               <node concept="3cpWs8" id="5KpWsqjClex" role="3cqZAp">
                 <node concept="3cpWsn" id="5KpWsqjCle$" role="3cpWs9">
                   <property role="TrG5h" value="maxState" />
@@ -321,7 +300,7 @@
                   <property role="TrG5h" value="stateName" />
                   <node concept="17QB3L" id="5KpWsqjCTiM" role="1tU5fm" />
                   <node concept="Xl_RD" id="5KpWsqjCw4o" role="33vP2m">
-                    <property role="Xl_RC" value="success" />
+                    <property role="Xl_RC" value="last_step" />
                   </node>
                 </node>
               </node>
@@ -380,6 +359,44 @@
             </node>
           </node>
         </node>
+        <node concept="17Uvod" id="5pax3kehTHZ" role="lGtFl">
+          <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/7186310881075221454/7186310881075221495" />
+          <property role="2qtEX9" value="status" />
+          <node concept="3zFVjK" id="5pax3kehTI0" role="3zH0cK">
+            <node concept="3clFbS" id="5pax3kehTI1" role="2VODD2">
+              <node concept="3clFbF" id="5pax3kehUwt" role="3cqZAp">
+                <node concept="2OqwBi" id="5pax3kehUMa" role="3clFbG">
+                  <node concept="30H73N" id="5pax3kehUws" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5pax3kehVft" role="2OqNvi">
+                    <ref role="3TsBF5" to="wvy4:33QfiBA71gP" resolve="direction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uOfyw" id="5pax3keioW5" role="3uOfKK">
+        <property role="3uOfX0" value="false" />
+        <ref role="3uOfX6" node="5pax3keinTp" resolve="buzzer" />
+      </node>
+    </node>
+    <node concept="3uOfik" id="5pax3kei2uO" role="3uOfKp">
+      <property role="TrG5h" value="last_step" />
+      <node concept="2jIrh_" id="5pax3keilCZ" role="3uOfKq">
+        <property role="2jIrhL" value="success" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+      </node>
+    </node>
+    <node concept="3uOfik" id="5pax3keimPz" role="3uOfKp">
+      <property role="TrG5h" value="success" />
+      <node concept="2jIrh_" id="5pax3keioVV" role="3uOfKq">
+        <property role="2jIrhL" value="bgName_0" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+      </node>
+      <node concept="3uOfyw" id="5pax3keioVT" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3keinTp" resolve="buzzer" />
       </node>
     </node>
     <node concept="n94m4" id="1gcG8mUk$$m" role="lGtFl">
@@ -389,6 +406,7 @@
       <property role="2JXRMK" value="42" />
       <property role="2JXRMQ" value="42" />
       <property role="2JXRMP" value="42" />
+      <property role="TrG5h" value="joystick" />
       <node concept="29HgVG" id="2lnn8aaDMx3" role="lGtFl">
         <node concept="3NFfHV" id="2lnn8aaDMx4" role="3NFExx">
           <node concept="3clFbS" id="2lnn8aaDMx5" role="2VODD2">
@@ -404,6 +422,10 @@
         </node>
       </node>
     </node>
+    <node concept="3T3p6N" id="5pax3keinTp" role="3T3nKE">
+      <property role="TrG5h" value="buzzer" />
+      <property role="3T3nKM" value="12" />
+    </node>
   </node>
   <node concept="13MO4I" id="66EgKQ7Lt3o">
     <property role="TrG5h" value="reduce_BGSensor" />
@@ -412,6 +434,7 @@
       <property role="2JXRMK" value="0" />
       <property role="2JXRMQ" value="0" />
       <property role="2JXRMP" value="0" />
+      <property role="TrG5h" value="joystick" />
       <node concept="raruj" id="2lnn8aaDP38" role="lGtFl" />
       <node concept="17Uvod" id="2lnn8aaDP39" role="lGtFl">
         <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/2690721018118400324/2690721018118414386" />

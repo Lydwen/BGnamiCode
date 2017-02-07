@@ -109,15 +109,13 @@
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
-    <node concept="1TJgyj" id="5BVoFE7aTUA" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="init_state" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801182886" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
-    </node>
     <node concept="PrWs8" id="5BVoFE7b1lu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="5pax3kei4Ae" role="1TKVEl">
+      <property role="IQ2nx" value="6217927598946142606" />
+      <property role="TrG5h" value="init_state" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="5BVoFE7aToI">
