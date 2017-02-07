@@ -7,6 +7,13 @@
   <imports />
   <registry>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="7186310881075221454" name="ArduinoML.structure.TransitionJoystick" flags="ng" index="2jIrh_">
+        <property id="7186310881075221495" name="status" index="2jIrhs" />
+        <reference id="7186310881075221520" name="joystick" index="2jIreV" />
+      </concept>
+      <concept id="7186310881075221464" name="ArduinoML.structure.Transition" flags="ng" index="2jIrhN">
+        <property id="7186310881075221466" name="target" index="2jIrhL" />
+      </concept>
       <concept id="2690721018118400324" name="ArduinoML.structure.Joystick" flags="ng" index="2JMbn6">
         <property id="2690721018118414386" name="pinX" index="2JXRMK" />
         <property id="2690721018118414391" name="pinPush" index="2JXRMP" />
@@ -20,9 +27,8 @@
         <property id="6483884641801182714" name="status" index="3uOfX0" />
         <reference id="6483884641801182716" name="actuator" index="3uOfX6" />
       </concept>
-      <concept id="6483884641801182720" name="ArduinoML.structure.Transition" flags="ng" index="3uOfMU">
+      <concept id="6483884641801182720" name="ArduinoML.structure.TransitionDigital" flags="ng" index="3uOfMU">
         <property id="6483884641801182748" name="status" index="3uOfMA" />
-        <property id="8175680257180553767" name="target" index="3B7wJ7" />
         <reference id="6483884641801182750" name="sensor" index="3uOfM$" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G" />
@@ -60,9 +66,9 @@
         <property role="3uOfX0" value="true" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
-      <node concept="3uOfMU" id="75PQu2mr6$A" role="3uOfKq">
+      <node concept="3uOfMU" id="6eUTUJK1l3e" role="3uOfKq">
         <property role="3uOfMA" value="true" />
-        <property role="3B7wJ7" value="wow" />
+        <property role="2jIrhL" value="wow" />
         <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
       </node>
     </node>
@@ -72,16 +78,25 @@
         <property role="3uOfX0" value="false" />
         <ref role="3uOfX6" node="1gcG8mUk9O6" resolve="act" />
       </node>
-      <node concept="3uOfMU" id="75PQu2mr6$C" role="3uOfKq">
+      <node concept="3uOfMU" id="6eUTUJK1l3g" role="3uOfKq">
         <property role="3uOfMA" value="false" />
-        <property role="3B7wJ7" value="init" />
+        <property role="2jIrhL" value="init" />
         <ref role="3uOfM$" node="1gcG8mUk9Oc" resolve="sens" />
+      </node>
+    </node>
+    <node concept="3uOfik" id="6eUTUJK3HT6" role="3uOfKp">
+      <property role="TrG5h" value="joy" />
+      <node concept="2jIrh_" id="6eUTUJK3HTg" role="3uOfKq">
+        <property role="2jIrhL" value="wow" />
+        <property role="2jIrhs" value="1" />
+        <ref role="2jIreV" node="2lnn8aaC81z" resolve="stick" />
       </node>
     </node>
     <node concept="2JMbn6" id="2lnn8aaC81z" role="2JMbkk">
       <property role="2JXRMK" value="11" />
       <property role="2JXRMQ" value="12" />
       <property role="2JXRMP" value="13" />
+      <property role="TrG5h" value="stick" />
     </node>
   </node>
 </model>

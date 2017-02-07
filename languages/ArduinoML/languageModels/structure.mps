@@ -138,7 +138,7 @@
       <property role="20kJfa" value="transition" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="6483884641801182880" />
-      <ref role="20lvS9" node="5BVoFE7aTS0" resolve="Transition" />
+      <ref role="20lvS9" node="6eUTUJK0Pfo" resolve="Transition" />
     </node>
   </node>
   <node concept="1TIwiD" id="5BVoFE7aTCq">
@@ -159,18 +159,13 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5BVoFE7aTS0">
-    <property role="TrG5h" value="Transition" />
+    <property role="TrG5h" value="TransitionDigital" />
     <property role="EcuMT" value="6483884641801182720" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6eUTUJK0Pfo" resolve="Transition" />
     <node concept="1TJgyi" id="5BVoFE7aTSs" role="1TKVEl">
       <property role="TrG5h" value="status" />
       <property role="IQ2nx" value="6483884641801182748" />
       <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
-    </node>
-    <node concept="1TJgyi" id="75PQu2mqX8B" role="1TKVEl">
-      <property role="IQ2nx" value="8175680257180553767" />
-      <property role="TrG5h" value="target" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="5BVoFE7aTSu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -213,11 +208,71 @@
       <property role="TrG5h" value="pinPush" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="6eUTUJK0PgJ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2lnn8aaCg3s">
     <property role="EcuMT" value="2690721018118471900" />
     <property role="TrG5h" value="TransitionControled" />
+    <ref role="1TJDcQ" node="6eUTUJK0Pfo" resolve="Transition" />
+  </node>
+  <node concept="1TIwiD" id="6eUTUJK0Pfe">
+    <property role="EcuMT" value="7186310881075221454" />
+    <property role="TrG5h" value="TransitionJoystick" />
+    <ref role="1TJDcQ" node="6eUTUJK0Pfo" resolve="Transition" />
+    <node concept="1TJgyi" id="6eUTUJK0PfR" role="1TKVEl">
+      <property role="IQ2nx" value="7186310881075221495" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="6eUTUJK0Pfs" resolve="JOYSTICK_STATUS" />
+    </node>
+    <node concept="1TJgyj" id="6eUTUJK0Pgg" role="1TKVEi">
+      <property role="IQ2ns" value="7186310881075221520" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="joystick" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2lnn8aaBY_4" resolve="Joystick" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6eUTUJK0Pfo">
+    <property role="EcuMT" value="7186310881075221464" />
+    <property role="TrG5h" value="Transition" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6eUTUJK0Pfq" role="1TKVEl">
+      <property role="IQ2nx" value="7186310881075221466" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="6eUTUJK0Pfs">
+    <property role="TrG5h" value="JOYSTICK_STATUS" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="6eUTUJK0Pft" role="M5hS2">
+      <property role="1uS6qv" value="0" />
+      <property role="1uS6qo" value="push" />
+    </node>
+    <node concept="M4N5e" id="6eUTUJK0Pfu" role="M5hS2">
+      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="middle" />
+    </node>
+    <node concept="M4N5e" id="6eUTUJK0Pfx" role="M5hS2">
+      <property role="1uS6qv" value="2" />
+      <property role="1uS6qo" value="up" />
+    </node>
+    <node concept="M4N5e" id="6eUTUJK0Pf_" role="M5hS2">
+      <property role="1uS6qv" value="3" />
+      <property role="1uS6qo" value="right" />
+    </node>
+    <node concept="M4N5e" id="6eUTUJK0PfE" role="M5hS2">
+      <property role="1uS6qv" value="4" />
+      <property role="1uS6qo" value="down" />
+    </node>
+    <node concept="M4N5e" id="6eUTUJK0PfK" role="M5hS2">
+      <property role="1uS6qv" value="5" />
+      <property role="1uS6qo" value="left" />
+    </node>
   </node>
 </model>
 
