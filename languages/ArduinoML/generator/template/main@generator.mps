@@ -2,10 +2,10 @@
 <model ref="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
-    <use id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -238,25 +238,25 @@
             <node concept="10M0yZ" id="2lnn8aaCk78" role="2Oq$k0">
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              <node concept="29HgVG" id="2lnn8aaCroM" role="lGtFl">
-                <node concept="3NFfHV" id="2lnn8aaCroN" role="3NFExx">
-                  <node concept="3clFbS" id="2lnn8aaCroO" role="2VODD2">
-                    <node concept="3clFbF" id="2lnn8aaCroU" role="3cqZAp">
-                      <node concept="2OqwBi" id="2lnn8aaCroP" role="3clFbG">
-                        <node concept="3TrEf2" id="2lnn8aaCroS" role="2OqNvi">
-                          <ref role="3Tt5mk" to="67j:2lnn8aaBYAm" resolve="joystick" />
-                        </node>
-                        <node concept="30H73N" id="2lnn8aaCroT" role="2Oq$k0" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
             <node concept="liA8E" id="2lnn8aaCk79" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="2lnn8aaCkzw" role="37wK5m">
                 <property role="Xl_RC" value="  // Here comes joystick method declarations" />
+              </node>
+            </node>
+          </node>
+          <node concept="29HgVG" id="2lnn8aaDuNI" role="lGtFl">
+            <node concept="3NFfHV" id="2lnn8aaDuNJ" role="3NFExx">
+              <node concept="3clFbS" id="2lnn8aaDuNK" role="2VODD2">
+                <node concept="3clFbF" id="2lnn8aaDuNQ" role="3cqZAp">
+                  <node concept="2OqwBi" id="2lnn8aaDuNL" role="3clFbG">
+                    <node concept="3TrEf2" id="2lnn8aaDuNO" role="2OqNvi">
+                      <ref role="3Tt5mk" to="67j:2lnn8aaBYAm" resolve="joystick" />
+                    </node>
+                    <node concept="30H73N" id="2lnn8aaDuNP" role="2Oq$k0" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -580,10 +580,10 @@
                         <node concept="3clFbS" id="5BVoFE7do5l" role="2VODD2">
                           <node concept="3clFbF" id="5BVoFE7do5r" role="3cqZAp">
                             <node concept="2OqwBi" id="5BVoFE7do5m" role="3clFbG">
-                              <node concept="30H73N" id="5BVoFE7do5q" role="2Oq$k0" />
                               <node concept="3TrcHB" id="1gcG8mUpHUu" role="2OqNvi">
                                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                               </node>
+                              <node concept="30H73N" id="5BVoFE7do5q" role="2Oq$k0" />
                             </node>
                           </node>
                         </node>
@@ -897,22 +897,10 @@
                       <node concept="3zFVjK" id="5BVoFE7dhsm" role="3zH0cK">
                         <node concept="3clFbS" id="5BVoFE7dhsn" role="2VODD2">
                           <node concept="3clFbF" id="5BVoFE7dhXD" role="3cqZAp">
-<<<<<<< HEAD
-                            <node concept="2OqwBi" id="5BVoFE7diyS" role="3clFbG">
-                              <node concept="2OqwBi" id="5BVoFE7di1D" role="2Oq$k0">
-                                <node concept="30H73N" id="5BVoFE7dhXC" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="5BVoFE7dike" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="67j:5BVoFE7bb5N" resolve="target" />
-                                </node>
-                              </node>
-                              <node concept="3TrcHB" id="5BVoFE7diTn" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-=======
                             <node concept="2OqwBi" id="75PQu2mqYGm" role="3clFbG">
                               <node concept="30H73N" id="75PQu2mqYvz" role="2Oq$k0" />
                               <node concept="3TrcHB" id="75PQu2mqZ0m" role="2OqNvi">
                                 <ref role="3TsBF5" to="67j:75PQu2mqX8B" resolve="target" />
->>>>>>> origin/master
                               </node>
                             </node>
                           </node>
@@ -992,9 +980,9 @@
               </node>
             </node>
           </node>
+          <node concept="raruj" id="2lnn8aaDkTe" role="lGtFl" />
         </node>
       </node>
-      <node concept="raruj" id="2lnn8aaCsp1" role="lGtFl" />
     </node>
   </node>
 </model>
