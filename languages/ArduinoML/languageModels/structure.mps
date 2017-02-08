@@ -29,6 +29,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -214,8 +215,23 @@
   </node>
   <node concept="1TIwiD" id="2lnn8aaCg3s">
     <property role="EcuMT" value="2690721018118471900" />
-    <property role="TrG5h" value="TransitionControled" />
+    <property role="TrG5h" value="TransitionControlledDigital" />
     <ref role="1TJDcQ" node="6eUTUJK0Pfo" resolve="Transition" />
+    <node concept="1TJgyj" id="6eUTUJK6AeN" role="1TKVEi">
+      <property role="IQ2ns" value="7186310881076732851" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sensor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
+    </node>
+    <node concept="1TJgyi" id="6eUTUJK6Afn" role="1TKVEl">
+      <property role="IQ2nx" value="7186310881076732887" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
+    </node>
+    <node concept="PrWs8" id="6eUTUJK7B7I" role="PzmwI">
+      <ref role="PrY4T" node="6eUTUJK7B7f" resolve="ITransitionControlled" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6eUTUJK0Pfe">
     <property role="EcuMT" value="7186310881075221454" />
@@ -272,6 +288,23 @@
     <node concept="M4N5e" id="6eUTUJK0PfK" role="M5hS2">
       <property role="1uS6qv" value="5" />
       <property role="1uS6qo" value="left" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6eUTUJK7B4V">
+    <property role="EcuMT" value="7186310881076998459" />
+    <property role="TrG5h" value="TransitionControlledJoystick" />
+    <ref role="1TJDcQ" node="6eUTUJK0Pfe" resolve="TransitionJoystick" />
+    <node concept="PrWs8" id="6eUTUJK7B7K" role="PzmwI">
+      <ref role="PrY4T" node="6eUTUJK7B7f" resolve="ITransitionControlled" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6eUTUJK7B7f">
+    <property role="EcuMT" value="7186310881076998607" />
+    <property role="TrG5h" value="ITransitionControlled" />
+    <node concept="1TJgyi" id="6eUTUJK7B7F" role="1TKVEl">
+      <property role="IQ2nx" value="7186310881076998635" />
+      <property role="TrG5h" value="target_error" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

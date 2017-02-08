@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ArduinoML.sandbox" uuid="3a637c4a-92ff-4ca0-97db-e3180538b44a" moduleVersion="0" compileInMPS="true">
+<solution name="ArduinoML.sandbox" uuid="c7df43bd-bdbe-4640-83e6-570ac4e4b494" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -15,7 +15,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="3a637c4a-92ff-4ca0-97db-e3180538b44a(ArduinoML.sandbox)" version="0" />
+    <module reference="c7df43bd-bdbe-4640-83e6-570ac4e4b494(ArduinoML.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
 

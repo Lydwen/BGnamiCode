@@ -277,5 +277,104 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="6eUTUJK6AdK">
+    <ref role="1XX52x" to="67j:2lnn8aaCg3s" resolve="TransitionControlledDigital" />
+    <node concept="3EZMnI" id="6eUTUJK6AgO" role="2wV5jI">
+      <node concept="3EZMnI" id="6eUTUJK6Aed" role="3EZMnx">
+        <node concept="3F0ifn" id="6eUTUJK6Apb" role="3EZMnx">
+          <property role="3F0ifm" value="if" />
+        </node>
+        <node concept="1iCGBv" id="6eUTUJK6AeU" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK6AeN" resolve="sensor" />
+          <node concept="1sVBvm" id="6eUTUJK6AeW" role="1sWHZn">
+            <node concept="3F0A7n" id="6eUTUJK6Af3" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK6Afb" role="3EZMnx">
+          <property role="3F0ifm" value="is" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK6Afp" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK6Afn" resolve="status" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK6AfB" role="3EZMnx">
+          <property role="3F0ifm" value="=&gt;" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK6Ag0" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK0Pfq" resolve="target" />
+        </node>
+        <node concept="l2Vlx" id="6eUTUJK6Aeg" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6eUTUJK6Ahc" role="3EZMnx">
+        <node concept="VPM3Z" id="6eUTUJK6Ahe" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK6Ahg" role="3EZMnx">
+          <property role="3F0ifm" value="else" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK6Ayx" role="3EZMnx">
+          <property role="3F0ifm" value="=&gt;" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK6AyN" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK7B7F" resolve="target_error" />
+        </node>
+        <node concept="l2Vlx" id="6eUTUJK6Ahh" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6eUTUJK6AgP" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6eUTUJK7B9d">
+    <ref role="1XX52x" to="67j:6eUTUJK7B4V" resolve="TransitionControlledJoystick" />
+    <node concept="3EZMnI" id="6eUTUJK7B9H" role="2wV5jI">
+      <node concept="3EZMnI" id="6eUTUJK7B9O" role="3EZMnx">
+        <node concept="VPM3Z" id="6eUTUJK7B9Q" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK7Bhr" role="3EZMnx">
+          <property role="3F0ifm" value="if" />
+        </node>
+        <node concept="1iCGBv" id="6eUTUJK7Bhz" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK0Pgg" resolve="joystick" />
+          <node concept="1sVBvm" id="6eUTUJK7Bh_" role="1sWHZn">
+            <node concept="3F0A7n" id="6eUTUJK7BhI" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK7Biq" role="3EZMnx">
+          <property role="3F0ifm" value="is" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK7BiE" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK0PfR" resolve="status" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK7BiW" role="3EZMnx">
+          <property role="3F0ifm" value="=&gt;" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK7Bjg" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK0Pfq" resolve="target" />
+        </node>
+        <node concept="l2Vlx" id="6eUTUJK7B9T" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6eUTUJK7Bkm" role="3EZMnx">
+        <node concept="VPM3Z" id="6eUTUJK7Bko" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK7Bkq" role="3EZMnx">
+          <property role="3F0ifm" value="else" />
+        </node>
+        <node concept="3F0ifn" id="6eUTUJK7BkQ" role="3EZMnx">
+          <property role="3F0ifm" value="=&gt;" />
+        </node>
+        <node concept="3F0A7n" id="6eUTUJK7Bl0" role="3EZMnx">
+          <ref role="1NtTu8" to="67j:6eUTUJK7B7F" resolve="target_error" />
+        </node>
+        <node concept="l2Vlx" id="6eUTUJK7Bkr" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6eUTUJK7B9K" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
