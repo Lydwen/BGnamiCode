@@ -37,7 +37,7 @@
         <property id="8218746718699890346" name="pin" index="3T3nKM" />
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
-        <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
+        <property id="6217927598946142606" name="init_state" index="1o0GQV" />
         <child id="2690721018118400406" name="joystick" index="2JMbkk" />
         <child id="6483884641801182883" name="states" index="3uOfKp" />
         <child id="8218746718699890354" name="bricks" index="3T3nKE" />
@@ -51,7 +51,7 @@
   </registry>
   <node concept="3T3p6P" id="4dWaQd9Wljc">
     <property role="TrG5h" value="MyApp" />
-    <ref role="3uOfKs" node="4dWaQd9Wlje" resolve="0" />
+    <property role="1o0GQV" value="0" />
     <node concept="3T3p6N" id="4dWaQd9Wlji" role="3T3nKE">
       <property role="TrG5h" value="lederror" />
       <property role="3T3nKM" value="10" />
