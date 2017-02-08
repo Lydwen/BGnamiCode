@@ -19,6 +19,9 @@
         <child id="7037511093111313779" name="BGSensor" index="3ArLpY" />
       </concept>
       <concept id="7037511093111287610" name="BGnamiCode.structure.BGSensor" flags="ng" index="3ArEKR">
+        <property id="6217927598946714807" name="buzzer" index="1o6S22" />
+        <property id="6217927598946714801" name="green_led" index="1o6S24" />
+        <property id="6217927598946714789" name="red_led" index="1o6S2g" />
         <property id="7037511093111287638" name="stick_pin_X" index="3ArELr" />
         <property id="7037511093111287669" name="stick_pin_PUSH" index="3ArELS" />
         <property id="7037511093111287666" name="stick_pin_Y" index="3ArELZ" />
@@ -27,9 +30,12 @@
   </registry>
   <node concept="3mVidQ" id="33QfiBA71gx">
     <node concept="3ArEKR" id="66EgKQ7Lojk" role="3ArLpY">
-      <property role="3ArELr" value="10" />
-      <property role="3ArELZ" value="11" />
+      <property role="3ArELr" value="3" />
+      <property role="3ArELZ" value="4" />
       <property role="3ArELS" value="12" />
+      <property role="1o6S2g" value="10" />
+      <property role="1o6S24" value="11" />
+      <property role="1o6S22" value="11" />
     </node>
     <node concept="3mUyAJ" id="33QfiBA78mL" role="3mUy$u">
       <node concept="3mUy$t" id="1gcG8mUqNsM" role="3mUyAI">
@@ -45,16 +51,16 @@
         <property role="3mUy$s" value="4" />
       </node>
       <node concept="3mUy$t" id="5pax3kejYkb" role="3mUyAI">
-        <property role="3mUy$s" value="3" />
+        <property role="3mUy$s" value="5" />
       </node>
       <node concept="3mUy$t" id="5pax3kejYkh" role="3mUyAI">
-        <property role="3mUy$s" value="5" />
-      </node>
-      <node concept="3mUy$t" id="5pax3kejYko" role="3mUyAI">
         <property role="3mUy$s" value="3" />
       </node>
-      <node concept="3mUy$t" id="5pax3kejYkw" role="3mUyAI">
+      <node concept="3mUy$t" id="5pax3kejYko" role="3mUyAI">
         <property role="3mUy$s" value="5" />
+      </node>
+      <node concept="3mUy$t" id="5pax3kejYkw" role="3mUyAI">
+        <property role="3mUy$s" value="3" />
       </node>
     </node>
   </node>

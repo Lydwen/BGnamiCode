@@ -173,6 +173,42 @@
       <node concept="3F0ifn" id="5pax3keiOI4" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>
+      <node concept="3EZMnI" id="5pax3kekgjk" role="3EZMnx">
+        <node concept="VPM3Z" id="5pax3kekgjm" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5pax3kekgjo" role="3EZMnx">
+          <property role="3F0ifm" value="Red led on pin" />
+        </node>
+        <node concept="3F0A7n" id="5pax3kekgjQ" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:5pax3kekgi_" resolve="red_led" />
+        </node>
+        <node concept="l2Vlx" id="5pax3kekgjp" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="5pax3kekgkl" role="3EZMnx">
+        <node concept="VPM3Z" id="5pax3kekgkn" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5pax3kekgkp" role="3EZMnx">
+          <property role="3F0ifm" value="Green led on pin" />
+        </node>
+        <node concept="3F0A7n" id="5pax3kekgkW" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:5pax3kekgiL" resolve="green_led" />
+        </node>
+        <node concept="l2Vlx" id="5pax3kekgkq" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="5pax3kekgmZ" role="3EZMnx">
+        <node concept="VPM3Z" id="5pax3kekgn1" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5pax3kekgn3" role="3EZMnx">
+          <property role="3F0ifm" value="Buzzer on pin" />
+        </node>
+        <node concept="3F0A7n" id="5pax3kekgnF" role="3EZMnx">
+          <ref role="1NtTu8" to="wvy4:5pax3kekgiR" resolve="buzzer" />
+        </node>
+        <node concept="l2Vlx" id="5pax3kekgn4" role="2iSdaV" />
+      </node>
       <node concept="2iRkQZ" id="66EgKQ7LeYx" role="2iSdaV" />
     </node>
   </node>

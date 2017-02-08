@@ -83,7 +83,7 @@
       <property role="1uS6qv" value="2" />
     </node>
     <node concept="M4N5e" id="33QfiBA71g$" role="M5hS2">
-      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qo" value="RIGHT" />
       <property role="1uS6qv" value="3" />
     </node>
     <node concept="M4N5e" id="33QfiBA71gB" role="M5hS2">
@@ -91,7 +91,7 @@
       <property role="1uS6qv" value="4" />
     </node>
     <node concept="M4N5e" id="33QfiBA71gF" role="M5hS2">
-      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qo" value="LEFT" />
       <property role="1uS6qv" value="5" />
     </node>
   </node>
@@ -134,6 +134,21 @@
     <node concept="1TJgyi" id="66EgKQ7LeXP" role="1TKVEl">
       <property role="IQ2nx" value="7037511093111287669" />
       <property role="TrG5h" value="stick_pin_PUSH" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5pax3kekgi_" role="1TKVEl">
+      <property role="IQ2nx" value="6217927598946714789" />
+      <property role="TrG5h" value="red_led" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5pax3kekgiL" role="1TKVEl">
+      <property role="IQ2nx" value="6217927598946714801" />
+      <property role="TrG5h" value="green_led" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5pax3kekgiR" role="1TKVEl">
+      <property role="IQ2nx" value="6217927598946714807" />
+      <property role="TrG5h" value="buzzer" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
