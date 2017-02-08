@@ -79,20 +79,20 @@
     <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="33QfiBA71gz" role="M5hS2">
-      <property role="1uS6qv" value="0" />
       <property role="1uS6qo" value="UP" />
+      <property role="1uS6qv" value="2" />
     </node>
     <node concept="M4N5e" id="33QfiBA71g$" role="M5hS2">
-      <property role="1uS6qo" value="RIGHT" />
-      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qv" value="3" />
     </node>
     <node concept="M4N5e" id="33QfiBA71gB" role="M5hS2">
       <property role="1uS6qo" value="DOWN" />
-      <property role="1uS6qv" value="2" />
+      <property role="1uS6qv" value="4" />
     </node>
     <node concept="M4N5e" id="33QfiBA71gF" role="M5hS2">
-      <property role="1uS6qo" value="LEFT" />
-      <property role="1uS6qv" value="3" />
+      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qv" value="5" />
     </node>
   </node>
   <node concept="1TIwiD" id="33QfiBA71gO">

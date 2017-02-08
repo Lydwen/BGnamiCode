@@ -17,6 +17,7 @@
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -121,12 +122,18 @@
   <node concept="24kQdi" id="66EgKQ7LeY1">
     <ref role="1XX52x" to="wvy4:66EgKQ7LeWU" resolve="BGSensor" />
     <node concept="3EZMnI" id="66EgKQ7LeYu" role="2wV5jI">
+      <node concept="3F0ifn" id="5pax3keiOHl" role="3EZMnx">
+        <property role="3F0ifm" value="Joystick {" />
+      </node>
       <node concept="3EZMnI" id="66EgKQ7LeY_" role="3EZMnx">
         <node concept="VPM3Z" id="66EgKQ7LeYB" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="66EgKQ7LeYL" role="3EZMnx">
           <property role="3F0ifm" value="X on pin " />
+          <node concept="lj46D" id="5pax3keiS4e" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0A7n" id="66EgKQ7LeYT" role="3EZMnx">
           <ref role="1NtTu8" to="wvy4:66EgKQ7LeXm" resolve="stick_pin_X" />
@@ -139,6 +146,9 @@
         </node>
         <node concept="3F0ifn" id="66EgKQ7LeZ9" role="3EZMnx">
           <property role="3F0ifm" value="Y on pin " />
+          <node concept="lj46D" id="5pax3keiS4g" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0A7n" id="66EgKQ7LeZq" role="3EZMnx">
           <ref role="1NtTu8" to="wvy4:66EgKQ7LeXM" resolve="stick_pin_Y" />
@@ -151,11 +161,17 @@
         </node>
         <node concept="3F0ifn" id="66EgKQ7LeZJ" role="3EZMnx">
           <property role="3F0ifm" value="PUSH on pin " />
+          <node concept="lj46D" id="5pax3keiS4i" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0A7n" id="66EgKQ7Lf05" role="3EZMnx">
           <ref role="1NtTu8" to="wvy4:66EgKQ7LeXP" resolve="stick_pin_PUSH" />
         </node>
         <node concept="l2Vlx" id="66EgKQ7LeZK" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="5pax3keiOI4" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
       </node>
       <node concept="2iRkQZ" id="66EgKQ7LeYx" role="2iSdaV" />
     </node>
