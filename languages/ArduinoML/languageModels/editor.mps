@@ -527,7 +527,7 @@
     <node concept="3EZMnI" id="7xP92oD1tzL" role="2wV5jI">
       <node concept="l2Vlx" id="7xP92oD1tzM" role="2iSdaV" />
       <node concept="3F0ifn" id="7xP92oD1tzN" role="3EZMnx">
-        <property role="3F0ifm" value="&lt;=" />
+        <property role="3F0ifm" value="more than " />
       </node>
       <node concept="3F0A7n" id="7xP92oD1tzO" role="3EZMnx">
         <ref role="1NtTu8" to="67j:7xP92oD1tpA" resolve="counter" />
