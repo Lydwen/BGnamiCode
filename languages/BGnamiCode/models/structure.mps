@@ -70,6 +70,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="66EgKQ7LeWU" resolve="BGSensor" />
     </node>
+    <node concept="1TJgyj" id="7xP92oD7DW5" role="1TKVEi">
+      <property role="IQ2ns" value="8679883603143728901" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attempts" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7xP92oD7_IF" resolve="Attempt" />
+    </node>
     <node concept="PrWs8" id="1gcG8mUknTs" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
@@ -151,6 +158,90 @@
       <property role="TrG5h" value="buzzer" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD7_IF">
+    <property role="EcuMT" value="8679883603143711659" />
+    <property role="TrG5h" value="Attempt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7xP92oD7_J9" role="1TKVEi">
+      <property role="IQ2ns" value="8679883603143711689" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tries" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7xP92oD7_Jb" resolve="Try" />
+    </node>
+    <node concept="1TJgyj" id="7xP92oD7DWa" role="1TKVEi">
+      <property role="IQ2ns" value="8679883603143728906" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="maxTry" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7xP92oD7DW9" resolve="MaxTry" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD7_Jb">
+    <property role="EcuMT" value="8679883603143711691" />
+    <property role="TrG5h" value="Try" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7xP92oD7_Jc" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603143711692" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="7xP92oD7_Jv" role="1TKVEi">
+      <property role="IQ2ns" value="8679883603143711711" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7xP92oD7_Jx" resolve="BGAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD7_Jx">
+    <property role="EcuMT" value="8679883603143711713" />
+    <property role="TrG5h" value="BGAction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7xP92oD7_JN" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603143711731" />
+      <property role="TrG5h" value="sensor" />
+      <ref role="AX2Wp" node="7xP92oD7_JE" resolve="BGSensorType" />
+    </node>
+    <node concept="1TJgyi" id="7xP92oD7_JP" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603143711733" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="7xP92oD7_JU" resolve="BGValue" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7xP92oD7_JE">
+    <property role="TrG5h" value="BGSensorType" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="7xP92oD7_JF" role="M5hS2">
+      <property role="1uS6qv" value="0" />
+      <property role="1uS6qo" value="RED LIGHT" />
+    </node>
+    <node concept="M4N5e" id="7xP92oD7_JG" role="M5hS2">
+      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="BUZZER" />
+    </node>
+    <node concept="M4N5e" id="7xP92oD7_JJ" role="M5hS2">
+      <property role="1uS6qv" value="2" />
+      <property role="1uS6qo" value="GREEN LED" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7xP92oD7_JU">
+    <property role="TrG5h" value="BGValue" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7xP92oD7_JV" role="M5hS2">
+      <property role="1uS6qv" value="low" />
+      <property role="1uS6qo" value="LOW" />
+    </node>
+    <node concept="M4N5e" id="7xP92oD7_JW" role="M5hS2">
+      <property role="1uS6qv" value="high" />
+      <property role="1uS6qo" value="HIGH" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD7DW9">
+    <property role="EcuMT" value="8679883603143728905" />
+    <property role="TrG5h" value="MaxTry" />
+    <ref role="1TJDcQ" node="7xP92oD7_Jb" resolve="Try" />
   </node>
 </model>
 

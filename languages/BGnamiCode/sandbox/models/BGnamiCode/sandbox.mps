@@ -8,6 +8,19 @@
   <imports />
   <registry>
     <language id="ca6f6e4e-20be-476a-bf2e-14a6b4d9e674" name="BGnamiCode">
+      <concept id="8679883603143711659" name="BGnamiCode.structure.Attempt" flags="ng" index="1hqRYd">
+        <child id="8679883603143711689" name="tries" index="1hqRZJ" />
+        <child id="8679883603143728906" name="maxTry" index="1hqVGG" />
+      </concept>
+      <concept id="8679883603143711713" name="BGnamiCode.structure.BGAction" flags="ng" index="1hqRZ7">
+        <property id="8679883603143711733" name="value" index="1hqRZj" />
+        <property id="8679883603143711731" name="sensor" index="1hqRZl" />
+      </concept>
+      <concept id="8679883603143711691" name="BGnamiCode.structure.Try" flags="ng" index="1hqRZH">
+        <property id="8679883603143711692" name="max" index="1hqRZE" />
+        <child id="8679883603143711711" name="actions" index="1hqRZT" />
+      </concept>
+      <concept id="8679883603143728905" name="BGnamiCode.structure.MaxTry" flags="ng" index="1hqVGJ" />
       <concept id="3528074608254915636" name="BGnamiCode.structure.CodeMember" flags="ng" index="3mUy$t">
         <property id="3528074608254915637" name="direction" index="3mUy$s" />
       </concept>
@@ -15,6 +28,7 @@
         <child id="3528074608254915719" name="codeMembers" index="3mUyAI" />
       </concept>
       <concept id="3528074608254852703" name="BGnamiCode.structure.BgnamiApp" flags="ng" index="3mVidQ">
+        <child id="8679883603143728901" name="attempts" index="1hqVGz" />
         <child id="3528074608254915639" name="code" index="3mUy$u" />
         <child id="7037511093111313779" name="BGSensor" index="3ArLpY" />
       </concept>
@@ -61,6 +75,39 @@
       </node>
       <node concept="3mUy$t" id="7xP92oD7xiu" role="3mUyAI">
         <property role="3mUy$s" value="3" />
+      </node>
+    </node>
+    <node concept="1hqRYd" id="7xP92oD7Ij7" role="1hqVGz">
+      <node concept="1hqVGJ" id="7xP92oD7Ij8" role="1hqVGG">
+        <property role="1hqRZE" value="10" />
+        <node concept="1hqRZ7" id="7xP92oD7Ijb" role="1hqRZT">
+          <property role="1hqRZl" value="0" />
+          <property role="1hqRZj" value="high" />
+        </node>
+        <node concept="1hqRZ7" id="7xP92oD7Ijd" role="1hqRZT">
+          <property role="1hqRZl" value="2" />
+          <property role="1hqRZj" value="high" />
+        </node>
+        <node concept="1hqRZ7" id="7xP92oD7Ijg" role="1hqRZT">
+          <property role="1hqRZl" value="1" />
+          <property role="1hqRZj" value="high" />
+        </node>
+      </node>
+      <node concept="1hqRZH" id="7xP92oD7Ij$" role="1hqRZJ">
+        <property role="1hqRZE" value="3" />
+        <node concept="1hqRZ7" id="7xP92oD7IjA" role="1hqRZT">
+          <property role="1hqRZj" value="high" />
+        </node>
+      </node>
+      <node concept="1hqRZH" id="7xP92oD7IjG" role="1hqRZJ">
+        <property role="1hqRZE" value="6" />
+        <node concept="1hqRZ7" id="7xP92oD7IjK" role="1hqRZT">
+          <property role="1hqRZj" value="high" />
+        </node>
+        <node concept="1hqRZ7" id="7xP92oD7IjM" role="1hqRZT">
+          <property role="1hqRZl" value="2" />
+          <property role="1hqRZj" value="high" />
+        </node>
       </node>
     </node>
   </node>
