@@ -392,9 +392,8 @@
     </node>
     <node concept="3uOfik" id="5pax3kei2uO" role="3uOfKp">
       <property role="TrG5h" value="last_step" />
-      <node concept="2jD9qg" id="5pax3kekAjp" role="3uOfKq">
+      <node concept="2jIrh_" id="4dWaQda7UYL" role="3uOfKq">
         <property role="2jIrhL" value="success" />
-        <property role="2jD9p0" value="last_step" />
         <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
       </node>
     </node>

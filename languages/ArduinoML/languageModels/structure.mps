@@ -214,19 +214,7 @@
   <node concept="1TIwiD" id="2lnn8aaCg3s">
     <property role="EcuMT" value="2690721018118471900" />
     <property role="TrG5h" value="TransitionControlledDigital" />
-    <ref role="1TJDcQ" node="6eUTUJK0Pfo" resolve="Transition" />
-    <node concept="1TJgyj" id="6eUTUJK6AeN" role="1TKVEi">
-      <property role="IQ2ns" value="7186310881076732851" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sensor" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
-    </node>
-    <node concept="1TJgyi" id="6eUTUJK6Afn" role="1TKVEl">
-      <property role="IQ2nx" value="7186310881076732887" />
-      <property role="TrG5h" value="status" />
-      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
-    </node>
+    <ref role="1TJDcQ" node="5BVoFE7aTS0" resolve="TransitionDigital" />
     <node concept="PrWs8" id="6eUTUJK7B7I" role="PzmwI">
       <ref role="PrY4T" node="6eUTUJK7B7f" resolve="ITransitionControlled" />
     </node>

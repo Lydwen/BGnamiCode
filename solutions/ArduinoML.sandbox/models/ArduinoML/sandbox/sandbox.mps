@@ -113,8 +113,8 @@
     </node>
     <node concept="2JMbn6" id="4dWaQd9Wljg" role="2JMbkk">
       <property role="TrG5h" value="stick" />
-      <property role="2JXRMK" value="1" />
-      <property role="2JXRMQ" value="2" />
+      <property role="2JXRMK" value="3" />
+      <property role="2JXRMQ" value="4" />
       <property role="2JXRMP" value="12" />
     </node>
   </node>

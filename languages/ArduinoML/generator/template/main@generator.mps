@@ -2815,8 +2815,8 @@
                                 <node concept="2OqwBi" id="6eUTUJK6B_x" role="3clFbG">
                                   <node concept="2OqwBi" id="6eUTUJK6B_y" role="2Oq$k0">
                                     <node concept="30H73N" id="6eUTUJK6B_z" role="2Oq$k0" />
-                                    <node concept="3TrEf2" id="6eUTUJK6B_$" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="67j:6eUTUJK6AeN" resolve="sensor" />
+                                    <node concept="3TrEf2" id="3Ab4gBxgCqa" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="67j:5BVoFE7aTSu" resolve="sensor" />
                                     </node>
                                   </node>
                                   <node concept="3TrcHB" id="6eUTUJK6B__" role="2OqNvi">
@@ -2847,8 +2847,8 @@
                               </node>
                               <node concept="2OqwBi" id="6eUTUJK6B_I" role="3K4Cdx">
                                 <node concept="30H73N" id="6eUTUJK6B_J" role="2Oq$k0" />
-                                <node concept="3TrcHB" id="6eUTUJK6B_K" role="2OqNvi">
-                                  <ref role="3TsBF5" to="67j:6eUTUJK6Afn" resolve="status" />
+                                <node concept="3TrcHB" id="3Ab4gBxgIv9" role="2OqNvi">
+                                  <ref role="3TsBF5" to="67j:5BVoFE7aTSs" resolve="status" />
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="6eUTUJK6B_L" role="3K4E3e">
