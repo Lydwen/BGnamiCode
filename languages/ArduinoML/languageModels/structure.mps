@@ -29,7 +29,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -105,7 +107,7 @@
       <property role="20kJfa" value="states" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182883" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
+      <ref role="20lvS9" node="7xP92oD1toL" resolve="IState" />
     </node>
     <node concept="PrWs8" id="78eQDyb2T_e" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
@@ -122,8 +124,8 @@
   <node concept="1TIwiD" id="5BVoFE7aToI">
     <property role="TrG5h" value="State" />
     <property role="EcuMT" value="6483884641801180718" />
-    <node concept="PrWs8" id="5BVoFE7aTCe" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="7xP92oD2fDG" role="PzmwI">
+      <ref role="PrY4T" node="7xP92oD1toL" resolve="IState" />
     </node>
     <node concept="1TJgyj" id="5BVoFE7aTUa" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -291,6 +293,57 @@
       <property role="IQ2nx" value="7186310881076998635" />
       <property role="TrG5h" value="target_error" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD1ti_">
+    <property role="EcuMT" value="8679883603142104229" />
+    <property role="TrG5h" value="ErrorState" />
+    <ref role="1TJDcQ" node="5BVoFE7aToI" resolve="State" />
+    <node concept="1TJgyi" id="7xP92oD1tjU" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603142104314" />
+      <property role="TrG5h" value="code" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD1tj1">
+    <property role="EcuMT" value="8679883603142104257" />
+    <property role="TrG5h" value="MemoryState" />
+    <node concept="PrWs8" id="7xP92oD1tpk" role="PzmwI">
+      <ref role="PrY4T" node="7xP92oD1toL" resolve="IState" />
+    </node>
+    <node concept="1TJgyj" id="7xP92oD1tpv" role="1TKVEi">
+      <property role="IQ2ns" value="8679883603142104671" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="stateWithCounters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7xP92oD1tpz" resolve="Case" />
+    </node>
+    <node concept="1TJgyi" id="7xP92oD1tpx" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603142104673" />
+      <property role="TrG5h" value="baseTarget" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7xP92oD1toL">
+    <property role="EcuMT" value="8679883603142104625" />
+    <property role="TrG5h" value="IState" />
+    <node concept="PrWs8" id="7xP92oD1E75" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7xP92oD1tpz">
+    <property role="EcuMT" value="8679883603142104675" />
+    <property role="TrG5h" value="Case" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7xP92oD1tp$" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603142104676" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7xP92oD1tpA" role="1TKVEl">
+      <property role="IQ2nx" value="8679883603142104678" />
+      <property role="TrG5h" value="counter" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

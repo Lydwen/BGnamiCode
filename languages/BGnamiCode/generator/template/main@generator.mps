@@ -88,6 +88,17 @@
         <property id="2690721018118414391" name="pinPush" index="2JXRMP" />
         <property id="2690721018118414388" name="pinY" index="2JXRMQ" />
       </concept>
+      <concept id="8679883603142104229" name="ArduinoML.structure.ErrorState" flags="ng" index="1hsf23">
+        <property id="8679883603142104314" name="code" index="1hsf3s" />
+      </concept>
+      <concept id="8679883603142104257" name="ArduinoML.structure.MemoryState" flags="ng" index="1hsf3B">
+        <property id="8679883603142104673" name="baseTarget" index="1hsf97" />
+        <child id="8679883603142104671" name="stateWithCounters" index="1hsf9T" />
+      </concept>
+      <concept id="8679883603142104675" name="ArduinoML.structure.Case" flags="ng" index="1hsf95">
+        <property id="8679883603142104678" name="counter" index="1hsf90" />
+        <property id="8679883603142104676" name="target" index="1hsf92" />
+      </concept>
       <concept id="6483884641801180718" name="ArduinoML.structure.State" flags="ng" index="3uOfik">
         <child id="6483884641801182880" name="transition" index="3uOfKq" />
         <child id="6483884641801182858" name="actions" index="3uOfKK" />
@@ -282,7 +293,7 @@
       </node>
       <node concept="2jD9qg" id="5pax3kekzV8" role="3uOfKq">
         <property role="2jIrhL" value="nextState" />
-        <property role="2jD9p0" value="error" />
+        <property role="2jD9p0" value="general_error" />
         <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
         <node concept="17Uvod" id="5pax3kek$un" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/7186310881075221464/7186310881075221466" />
@@ -409,16 +420,76 @@
         <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
       </node>
     </node>
-    <node concept="3uOfik" id="5pax3kelfYY" role="3uOfKp">
+    <node concept="1hsf23" id="7xP92oD6r9v" role="3uOfKp">
       <property role="TrG5h" value="error" />
-      <node concept="2jD9qg" id="5pax3kell9p" role="3uOfKq">
+      <property role="1hsf3s" value="0" />
+      <node concept="2jIrh_" id="7xP92oD6zBC" role="3uOfKq">
         <property role="2jIrhL" value="bgNami_0" />
-        <property role="2jD9p0" value="error" />
         <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
       </node>
-      <node concept="3uOfyw" id="5pax3kell9m" role="3uOfKK">
+    </node>
+    <node concept="1hsf23" id="7xP92oD6yzJ" role="3uOfKp">
+      <property role="TrG5h" value="error_1" />
+      <property role="1hsf3s" value="1" />
+      <node concept="2jIrh_" id="7xP92oD6zBA" role="3uOfKq">
+        <property role="2jIrhL" value="bgNami_0" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6AAF" role="3uOfKK">
         <property role="3uOfX0" value="true" />
         <ref role="3uOfX6" node="5pax3kelk7z" resolve="ledError" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6AEi" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3keinTp" resolve="buzzer" />
+      </node>
+    </node>
+    <node concept="1hsf23" id="7xP92oD6DTc" role="3uOfKp">
+      <property role="TrG5h" value="error_2" />
+      <property role="1hsf3s" value="2" />
+      <node concept="2jIrh_" id="7xP92oD6DTd" role="3uOfKq">
+        <property role="2jIrhL" value="bgNami_0" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6DTe" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3kelk7z" resolve="ledError" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6DTf" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3keinTp" resolve="buzzer" />
+      </node>
+    </node>
+    <node concept="1hsf23" id="7xP92oD6EX6" role="3uOfKp">
+      <property role="TrG5h" value="error_end" />
+      <property role="1hsf3s" value="3" />
+      <node concept="2jIrh_" id="7xP92oD6EX7" role="3uOfKq">
+        <property role="2jIrhL" value="error_end" />
+        <ref role="2jIreV" node="2lnn8aaDP36" resolve="joystick" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6EX8" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3kelk7z" resolve="ledError" />
+      </node>
+      <node concept="3uOfyw" id="7xP92oD6EX9" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="5pax3keinTp" resolve="buzzer" />
+      </node>
+    </node>
+    <node concept="1hsf3B" id="7xP92oD6ws9" role="3uOfKp">
+      <property role="TrG5h" value="general_error" />
+      <property role="1hsf97" value="error" />
+      <node concept="1hsf95" id="7xP92oD6xvQ" role="1hsf9T">
+        <property role="1hsf90" value="3" />
+        <property role="1hsf92" value="error_1" />
+      </node>
+      <node concept="1hsf95" id="7xP92oD6xvS" role="1hsf9T">
+        <property role="1hsf90" value="6" />
+        <property role="1hsf92" value="error_2" />
+      </node>
+      <node concept="1hsf95" id="7xP92oD6xvV" role="1hsf9T">
+        <property role="1hsf90" value="10" />
+        <property role="1hsf92" value="error_end" />
       </node>
     </node>
     <node concept="n94m4" id="1gcG8mUk$$m" role="lGtFl">
